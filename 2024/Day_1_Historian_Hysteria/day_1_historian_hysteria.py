@@ -58,11 +58,7 @@ for list_1_item in list_1:
     for list_2_item in list_2:
         if list_1_item == list_2_item:
             similarity_count += 1
-            print(f"{list_1_item} == {list_2_item}. Similarity count = \
-            {similarity_count}")
     similarity += int(list_1_item) * similarity_count
-    print(f"{list_1_item} similarity {similarity_count}, \
-    total_similarity = {similarity}")
     similarity_count = 0
 
 # Print the answer to the solution.
