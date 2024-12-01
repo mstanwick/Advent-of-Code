@@ -28,7 +28,6 @@ list_1.sort()
 list_2.sort()
 
 total_distance = 0
-y = 0
 
 # Iterate through the lists, getting the difference between each item, then
 # adding that difference to total_distance
